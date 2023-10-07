@@ -1,0 +1,18 @@
+:root {
+  --black: #303030;
+}
+
+body {
+  background-color: var(--black);
+}
+
+@font-face {
+  font-family: "Recursive", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins&family=Recursive&display=swap");
+}
+
+h1,
+p {
+  font-family: Recursive;
+  color: white;
+}
