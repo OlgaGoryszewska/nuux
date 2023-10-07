@@ -1,0 +1,2 @@
+# devgoddess.no
+A portfolio 
