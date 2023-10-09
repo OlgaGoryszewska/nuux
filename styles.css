@@ -22,11 +22,13 @@ body {
 body {
   margin: 1.5rem;
 }
+
 a,
 h1,
 h2,
 li,
-p {
+p,
+label {
   font-family: Recursive;
   color: white;
   list-style-type: none;
@@ -99,16 +101,53 @@ a {
   object-fit: cover;
   margin-bottom: 2rem;
 }
+
 .skills-wrapper {
   border: 1px solid white;
   padding: 1rem;
 }
+
 .language-wrapper,
 .tools-wrapper {
   display: flex;
   flex-direction: row;
   gap: 60px;
 }
+
 .language-wrapper {
+  gap: 40px;
+}
+
+.fa-brands,
+.adobe-icon {
+  font-size: 42px;
+  width: 42px;
+  height: 42px;
+  color: var(--white);
+  padding: 0.5rem;
+}
+
+.tool-wrapper {
   display: flex;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  height: 2rem;
+}
+
+input[type="submit"] {
+  height: 3rem;
+  background-color: var(--black);
+  border: 1px solid white;
+  color: var(--white);
+  font-family: Recursive;
+  font-size: 18px;
 }
