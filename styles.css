@@ -2,6 +2,8 @@
   --black: #303030;
   --gray: #d8d9db;
   --white: #fff;
+  --color-1: rgba(57, 180, 230, 1);
+  --color-2: rgba(255, 9, 80, 1);
 }
 
 body {
@@ -36,7 +38,9 @@ label {
 
 h1,
 h2 {
-  font-size: 36px;
+  background-image: linear-gradient(to right, var(--color-1), var(--color-2));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 img {
@@ -150,4 +154,5 @@ input[type="submit"] {
   color: var(--white);
   font-family: Recursive;
   font-size: 18px;
+  margin-top: 2rem;
 }

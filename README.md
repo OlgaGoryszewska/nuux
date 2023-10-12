@@ -1,2 +1,3 @@
 # devgoddess.no
-A portfolio 
+
+A portf
