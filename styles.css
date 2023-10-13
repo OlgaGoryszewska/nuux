@@ -19,7 +19,8 @@ body {
   background-color: var(--black);
   max-width: 1056px;
   padding: 2rem;
-  border-color: 1px solid white;
+  border: 1px solid white;
+  margin: 1.5rem;
 }
 
 @font-face {
@@ -30,10 +31,6 @@ body {
 @font-face {
   font-family: "Poppins", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-}
-
-body {
-  margin: 1.5rem;
 }
 
 a,
@@ -64,7 +61,7 @@ h2 {
   background-image: linear-gradient(to right, var(--color-1), var(--color-2));
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 36px;
+  font-size: 46px;
 }
 
 .projects-wrapper {
@@ -172,12 +169,12 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border: 1px solid white;
   }
 }
 
 .skills-wrapper {
-  border: 1px solid white;
-  padding: 1rem;
+  padding: 2rem;
   max-width: 320px;
   line-height: 2rem;
   align-self: center;
