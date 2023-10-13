@@ -64,7 +64,8 @@ h2 {
   padding-left: 2rem;
 }
 .header-contact-form {
-  padding: 0rem;
+  margin-top: 0rem;
+  padding: 0;
 }
 
 .projects-wrapper {
@@ -91,6 +92,7 @@ a {
 .logo {
   font-size: 62px;
   max-width: 100vp;
+  margin-right: 2rem;
 }
 .text {
   font-family: "Poppins", sans-serif;
@@ -115,7 +117,8 @@ a {
   min-height: 770px;
   margin-bottom: 2rem;
   box-shadow: 0px 4px 4px 0px #00000040;
-  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .github-link-sett {
@@ -144,10 +147,10 @@ a {
   animation: beat 2s infinite;
 }
 
+.image-wrapper,
 .about-me-wrapper {
   display: flex;
   flex-direction: column;
-  justify-items: center;
 }
 .olga {
   max-width: 320px;
@@ -155,7 +158,6 @@ a {
   border-radius: 0px;
   border: 1px solid white;
   object-fit: cover;
-  margin-bottom: 2rem;
   justify-self: center;
   align-self: center;
 }
@@ -165,23 +167,40 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .about-me-wrapper {
     max-width: 1008px;
     display: flex;
     flex-direction: row;
+    justify-items: center;
     justify-content: space-evenly;
     border: 1px solid white;
   }
+  .image-wrapper {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .logo {
+    font-size: 72px;
+  }
+}
+
+.skills-tittle {
+  font-size: 18px;
+  padding-top: 2rem;
+  line-height: 2rem;
+  padding-left: 2rem;
 }
 
 .skills-wrapper {
-  padding: 2rem;
   max-width: 320px;
   line-height: 2rem;
-  align-self: center;
+  align-self: flex-start;
+  padding-left: 2rem;
 }
 
 .tools-wrapper {
+  padding-top: 1rem;
   display: flex;
   flex-direction: row;
   gap: 60px;
@@ -211,6 +230,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+  margin-top: 2rem;
   padding: 2rem;
 }
 
