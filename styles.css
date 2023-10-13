@@ -3,13 +3,16 @@
   --gray: #d8d9db;
   --white: #fff;
   --color-1: rgba(57, 180, 230, 1);
-  --color-2: rgba(255, 9, 80, 1);
+  --color-2: rgba(234, 115, 167, 1);
+
+  rgba(113, 117, 227, 1), rgba(234, 115, 167, 1)
 }
 
 html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(to right, var(--color-1), var(--color-2));
 }
 
 body {
@@ -17,6 +20,8 @@ body {
   flex-direction: column;
   background-color: var(--black);
   max-width: 1056px;
+  padding: 2rem;
+  border-color: 1px solid white;
 }
 
 @font-face {
@@ -177,6 +182,7 @@ a {
   padding: 1rem;
   max-width: 320px;
   line-height: 2rem;
+  align-self: center;
 }
 
 .language-wrapper,
