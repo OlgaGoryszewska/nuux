@@ -181,7 +181,6 @@ a {
   align-self: center;
 }
 
-.language-wrapper,
 .tools-wrapper {
   display: flex;
   flex-direction: row;
@@ -190,6 +189,9 @@ a {
 
 .language-wrapper {
   gap: 40px;
+}
+.header-skills {
+  font-size: 24px;
 }
 
 .fa-brands,
