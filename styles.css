@@ -341,4 +341,8 @@ input[type="submit"] {
     max-width: 120%;
     height: 400px;
   }
+  .under-logo-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
