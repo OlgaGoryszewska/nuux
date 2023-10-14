@@ -87,14 +87,12 @@ h2 {
     opacity: 1;
   }
 }
-
-.image-wrapper,
-.logo {
+.text,
+.image-wrapper {
   animation: fadeIn 2s;
 }
-
+.logo,
 .skills-wrapper,
-.text,
 .projects-wrapper {
   animation: slideIn 2s;
 }
