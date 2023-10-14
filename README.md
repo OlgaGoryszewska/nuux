@@ -1,4 +1,4 @@
-# Your Name's Portfolio
+# Portfolio
 
 Welcome to my portfolio! I'm Olga Goryszewska, a frontend development student and graduated UX designer. This repository serves as a showcase of my skills, projects, and experiences.
 
