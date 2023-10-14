@@ -120,15 +120,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.www-link-sett,
-.github-link-sett {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  margin: 1rem;
-  margin-top: 0rem;
-}
+
 @keyframes beat {
   0% {
     transform: scale(1);
@@ -141,13 +133,27 @@ a {
   }
 }
 
+.www-link-sett,
+.github-link-sett {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin: 1rem;
+  margin-top: 0rem;
+}
 .www-logo,
 .github-logo {
   width: 24px;
   height: 24px;
   animation: beat 2s infinite;
   border-radius: 0;
-  fill: #303030;
+  font-size: 22px;
+}
+
+.www-logo {
+  align-self: center;
+  justify-self: center;
 }
 
 .image-wrapper,
