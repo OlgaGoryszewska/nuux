@@ -120,7 +120,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
+.www-link-sett,
 .github-link-sett {
   display: flex;
   flex-direction: row;
@@ -141,10 +141,13 @@ a {
   }
 }
 
+.www-logo,
 .github-logo {
-  max-width: 100%;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   animation: beat 2s infinite;
+  border-radius: 0;
+  fill: var(--black);
 }
 
 .image-wrapper,
