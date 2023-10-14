@@ -147,7 +147,7 @@ a {
   height: 24px;
   animation: beat 2s infinite;
   border-radius: 0;
-  fill: var(--black);
+  fill: #303030;
 }
 
 .image-wrapper,
