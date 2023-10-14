@@ -68,6 +68,13 @@ h2 {
   padding: 0;
 }
 
+input[type="submit"]:focus {
+  color: #706e6f;
+}
+a:focus {
+  color: #706e6f;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -172,6 +179,18 @@ a {
   margin: 1rem;
   margin-top: 0rem;
 }
+
+a:hover {
+  color: #8171e3;
+}
+.submit:hover {
+  background-color: #8171e3;
+  color: var(--black);
+}
+.fa-brands:hover {
+  color: #8171e3;
+}
+
 .www-logo,
 .github-logo {
   width: 24px;
@@ -291,6 +310,14 @@ input[type="submit"] {
   font-size: 18px;
   margin-top: 2rem;
   border-radius: 0px;
+}
+
+#nameError,
+#emailError,
+#subjectError,
+#messageError {
+  color: #ff5a36;
+  font-family: "Poppins", sans-serif;
 }
 
 .icons-footer {

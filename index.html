@@ -15,6 +15,7 @@
       src="https://kit.fontawesome.com/d62daf45a3.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <div class="welcome-wrapper">
@@ -189,7 +190,11 @@
     </div>
 
     <div class="contact-form">
-      <form id="contact-form" action="#" method="post">
+      <form
+        id="contact-form"
+        action="https://formspree.io/olga.goryszewska@gmail.com"
+        method="post"
+      >
         <p class="header-contact-form">Contact me</p>
 
         <label for="name">Hi, my name is</label>
@@ -213,7 +218,7 @@
         <input type="email" id="email" name="email" autocomplete="email" />
         <span class="error" id="emailError"></span><br />
 
-        <input type="submit" name="submit" value="SEND" />
+        <input class="submit" type="submit" name="submit" value="SEND" />
       </form>
     </div>
     <footer>
