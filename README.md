@@ -1,11 +1,16 @@
-# Portfolio
+### Hi there 👋
 
 Welcome to my portfolio! I'm Olga Goryszewska, a frontend development student and graduated UX designer. This repository serves as a showcase of my skills, projects, and experiences.
 
 ## About Me
 
-My name is Olga Goryszewska, I am captivated by the tech industry and product design. With a passion for innovation, I find myself well-suited for a role in software development and UX designer.
-Explore my portfolio to witness my commitment to seamlessly blending technology and design for impactful user experiences.
+- 🔭 I’m currently working on improving my skils in Java Script
+- 🌱 I’m currently learning interactive frontend development
+- 👯 I’m looking to collaborate on startups for comanies with big budgets
+- 🤔 I’m looking for help with getting intership
+- 💬 Ask me about ux/ui design, HTML,CSS, basic JS
+- 📫 How to reach me: olga.goryszewska@gmail.com
+- ⚡ Fun fact: i wear turtle neck and blazer...
 
 ## Skills
 
@@ -43,6 +48,8 @@ Explore my portfolio to witness my commitment to seamlessly blending technology 
 
 - **Degree in [UX- design 60 points]** - Noroff, 2022
 - **Degree in [Frontend Development 60 points]** - Noroff, Now
+
+## Contact
 
 ## Contact
 
