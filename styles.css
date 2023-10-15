@@ -346,3 +346,10 @@ input[type="submit"] {
     line-height: 30px;
   }
 }
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block; /* Ensures the link takes up space */
+}
