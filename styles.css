@@ -248,6 +248,9 @@ a:hover {
   flex-direction: row;
   margin-top: 0.5rem;
   gap: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border: 1px solid white;
 }
 
 .language-wrapper {
@@ -268,7 +271,6 @@ a:hover {
   width: 32px;
   height: 40px;
   padding: 0.5rem;
-  margin-left: 2rem;
 }
 .listed-text {
   padding-left: 2rem;
