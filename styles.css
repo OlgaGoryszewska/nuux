@@ -41,17 +41,22 @@ label {
   font-family: Recursive;
   color: white;
   list-style-type: none;
+  font-size: 12px;
 }
 
-h2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.logo-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
 .header-contact-form,
 .logo,
 h1,
@@ -109,10 +114,9 @@ a {
 }
 
 .logo {
-  font-size: 62px;
-  max-width: 100vp;
+  font-size: 58px;
   margin-right: 2rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 .text {
   font-family: "Poppins", sans-serif;
@@ -153,7 +157,7 @@ a {
   color: var(--black);
 }
 
-img {
+.project-img {
   max-width: 100%;
   border-radius: 20px;
 }
@@ -210,14 +214,6 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-.olga {
-  max-width: 320px;
-  height: 400px;
-  border-radius: 0px;
-  border: 1px solid white;
-  object-fit: cover;
-  margin-left: 2rem;
-}
 
 @media screen and (min-width: 1008px) {
   .about-me-wrapper {
@@ -263,19 +259,20 @@ a:hover {
   margin: 0;
 }
 
-.fa-brands,
 .adobe-icon {
-  font-size: 42px;
-  width: 42px;
-  height: 42px;
-  color: var(--white);
+  width: 36px;
+  height: 36px;
   padding: 0.5rem;
 }
 .figma-icon {
-  width: 36px;
-  height: 42px;
+  width: 32px;
+  height: 40px;
   padding: 0.5rem;
   margin-left: 2rem;
+}
+.listed-text {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .tool-wrapper {
@@ -286,7 +283,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-
   padding: 2rem;
 }
 
@@ -296,7 +292,6 @@ textarea {
   height: 2rem;
   border-radius: 0rem;
   border-style: none;
-  margin-bottom: 0.8rem;
 }
 
 input[type="submit"] {
@@ -335,10 +330,7 @@ input[type="submit"] {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
   }
-  .olga {
-    max-width: 120%;
-    height: 400px;
-  }
+
   .under-logo-text {
     font-size: 18px;
     line-height: 30px;
