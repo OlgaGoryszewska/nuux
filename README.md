@@ -13,7 +13,7 @@ Welcome to my portfolio! I'm Olga Goryszewska, a frontend development student an
 
 ## Skills
 
-- **Programming Languages:** HTML, CSS, Java Script
+- **Programming Languages:** HTML, CSS, Java Script, React, Tailwind
 - **Design:** Adobe Illustrator, Figma, Adobe Xd
 - **Tools & Technologies:** Git Hub, VS Code, netlify, Digital Ocean
 
